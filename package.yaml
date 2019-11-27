@@ -35,6 +35,9 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - zundoko-arrow
+    - arrows
+    - Stream
+    - random
 
 tests:
   zundoko-arrow-test:
